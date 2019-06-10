@@ -1,35 +1,35 @@
 Git repo: https://github.com/abhirupj/omdbapi.git
 
-1) To run the image directly from my image
+# To run the image directly from my image
 
 I have added a repository in my docker hub.
 
-# Pull the image
+1) Pull the image
 
 docker pull abhirup/omdb_api
 
-#see the image listed
+2) see the image listed
 
 docker images abhirup/omdb_api
 
-# run the docker image 
+3) run the docker image 
 
 docker run -i -t abhirup/omdb_api python omdbapi.py
 
-2) If you want to build your own image
+# If you want to build your own image
 
-# Clone the repo
+1) Clone the repo
 
 git clone https://github.com/abhirupj/omdbapi.git
 
-#build the docker file
+2) build the docker file
 
 docker build .
 
-#check for the images
+3) check for the images
 
 docker images
 
-#run the image with the Image ID by passing the python file
+4) run the image with the Image ID by passing the python file
 
 docker run -i -t <IMAGE ID> python omdbapi.py
