@@ -32,4 +32,4 @@ docker images
 
 4) run the image with the Image ID by passing the python file
 
-docker run -i -t <IMAGE ID> python omdbapi.py
+docker run -i -t IMAGE_ID python omdbapi.py
